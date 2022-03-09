@@ -1,0 +1,17 @@
+package com.masadany.mvvm_hilt_unittesting;
+
+import dagger.hilt.InstallIn;
+import dagger.hilt.android.components.ApplicationComponent;
+import dagger.hilt.codegen.OriginatingElement;
+import dagger.hilt.internal.GeneratedEntryPoint;
+import javax.annotation.Generated;
+
+@OriginatingElement(
+    topLevelClass = ArtBookApplication.class
+)
+@GeneratedEntryPoint
+@InstallIn(ApplicationComponent.class)
+@Generated("dagger.hilt.android.processor.internal.androidentrypoint.InjectorEntryPointGenerator")
+public interface ArtBookApplication_GeneratedInjector {
+  void injectArtBookApplication(ArtBookApplication artBookApplication);
+}

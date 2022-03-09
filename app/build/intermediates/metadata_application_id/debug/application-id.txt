@@ -1,0 +1,1 @@
+com.masadany.mvvm_hilt_unittesting
