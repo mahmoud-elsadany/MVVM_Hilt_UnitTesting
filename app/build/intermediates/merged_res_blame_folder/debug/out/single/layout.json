@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_arts.xml",
+        "source": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\src\\main\\res\\layout\\fragment_arts.xml"
+    },
+    {
+        "merged": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_image_api.xml",
+        "source": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\src\\main\\res\\layout\\fragment_image_api.xml"
+    },
+    {
+        "merged": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\art_row.xml",
+        "source": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\src\\main\\res\\layout\\art_row.xml"
+    },
+    {
+        "merged": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\image_row.xml",
+        "source": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\src\\main\\res\\layout\\image_row.xml"
+    },
+    {
+        "merged": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_art_details.xml",
+        "source": "D:\\Refernces\\udemy_course\\MVV_Hilt_UnitTesting\\app\\src\\main\\res\\layout\\fragment_art_details.xml"
+    }
+]
