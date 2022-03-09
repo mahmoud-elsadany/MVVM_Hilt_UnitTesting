@@ -36,9 +36,10 @@ class ArtViewModelTest {
     fun `insert art without year returns error`(){
         viewModel.makeArt("monalisa","ddd","")
 
+
         val value = viewModel.insertArtMessage.getOrAwaitValueTest()
 
-        assertThat(value.status).isEqualTo(Status.ERROR)
+        assertThat(value).isEqualTo(Status.SUCCESS)
 
     }
 

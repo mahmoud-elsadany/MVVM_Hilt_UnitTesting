@@ -274,6 +274,10 @@ public final class DaggerArtBookApplication_HiltComponents_ApplicationC extends 
       }
 
       @Override
+      public void injectHiltTestActivity(HiltTestActivity hiltTestActivity) {
+      }
+
+      @Override
       public void injectMainActivity(MainActivity mainActivity) {
         injectMainActivity2(mainActivity);
       }

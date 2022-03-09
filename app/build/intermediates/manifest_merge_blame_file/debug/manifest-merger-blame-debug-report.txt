@@ -6,9 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:5:5-66
@@ -41,101 +39,107 @@
 27        android:theme="@style/AppTheme" >
 27-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:14:9-40
 28        <activity
-28-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:15:9-23:20
-29            android:name="com.masadany.mvvm_hilt_unittesting.view.MainActivity"
-29-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:16:13-46
-30            android:exported="true" >
-30-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:17:13-36
-31            <intent-filter>
-31-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:18:13-22:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
-32-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:21:17-77
-34-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:21:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity
-37-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:28:9-37:20
-38            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
-38-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:29:13-96
-39            android:exported="true"
-39-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:30:13-36
-40            android:multiprocess="true"
-40-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:31:13-40
-41            android:taskAffinity=""
-41-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:32:13-36
-42            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
-42-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:33:13-78
-43            <intent-filter>
-43-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:34:13-36:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
-44-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
-45            </intent-filter>
-46        </activity>
-47
-48        <provider
-48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-50            android:authorities="com.masadany.mvvm_hilt_unittesting.lifecycle-process"
-50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-51            android:exported="false"
-51-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-52            android:multiprocess="true" />
-52-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-53
-54        <service
-54-->[androidx.room:room-runtime:2.2.6] C:\Users\masadany\.gradle\caches\transforms-3\443a2524088abfd10360e7382dace757\transformed\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
-55            android:name="androidx.room.MultiInstanceInvalidationService"
-55-->[androidx.room:room-runtime:2.2.6] C:\Users\masadany\.gradle\caches\transforms-3\443a2524088abfd10360e7382dace757\transformed\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
-56            android:directBootAware="true"
-56-->[androidx.room:room-runtime:2.2.6] C:\Users\masadany\.gradle\caches\transforms-3\443a2524088abfd10360e7382dace757\transformed\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
-57            android:exported="false" />
-57-->[androidx.room:room-runtime:2.2.6] C:\Users\masadany\.gradle\caches\transforms-3\443a2524088abfd10360e7382dace757\transformed\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
-58
-59        <activity
-59-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:27:9-33:20
-60            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-60-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:28:13-99
-61            android:theme="@android:style/Theme" >
-61-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:29:13-49
-62            <intent-filter>
-62-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:34:13-36:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
-63-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
-64            </intent-filter>
-65        </activity>
-66        <activity
-66-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:34:9-40:20
-67            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-67-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:35:13-95
-68            android:theme="@android:style/Theme" >
-68-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:36:13-49
-69            <intent-filter>
-69-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:34:13-36:29
-70                <action android:name="android.intent.action.MAIN" />
-70-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
-70-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
-71            </intent-filter>
-72        </activity>
-73        <activity
-73-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:41:9-47:20
-74            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-74-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:42:13-103
-75            android:theme="@android:style/Theme.Dialog" >
-75-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:43:13-56
-76            <intent-filter>
-76-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:34:13-36:29
-77                <action android:name="android.intent.action.MAIN" />
-77-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
-77-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
-78            </intent-filter>
-79        </activity>
-80    </application>
-81
-82</manifest>
+28-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\debug\AndroidManifest.xml:7:9-9:40
+29            android:name="com.masadany.mvvm_hilt_unittesting.HiltTestActivity"
+29-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\debug\AndroidManifest.xml:8:13-45
+30            android:exported="false" />
+30-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\debug\AndroidManifest.xml:9:13-37
+31        <activity
+31-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:15:9-23:20
+32            android:name="com.masadany.mvvm_hilt_unittesting.view.MainActivity"
+32-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:16:13-46
+33            android:exported="true" >
+33-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:17:13-36
+34            <intent-filter>
+34-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:18:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
+35-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:21:17-77
+37-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:28:9-37:20
+41            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+41-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:29:13-96
+42            android:exported="true"
+42-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:30:13-36
+43            android:multiprocess="true"
+43-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:31:13-40
+44            android:taskAffinity=""
+44-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:32:13-36
+45            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+45-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:33:13-78
+46            <intent-filter>
+46-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:34:13-36:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
+47-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+52            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+53            android:authorities="com.masadany.mvvm_hilt_unittesting.lifecycle-process"
+53-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+54            android:exported="false"
+54-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+55            android:multiprocess="true" />
+55-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\masadany\.gradle\caches\transforms-3\526641c5c2f4e241d2feda7f12d37fb3\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+56
+57        <service
+57-->[androidx.room:room-runtime:2.2.6] C:\Users\masadany\.gradle\caches\transforms-3\443a2524088abfd10360e7382dace757\transformed\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+58            android:name="androidx.room.MultiInstanceInvalidationService"
+58-->[androidx.room:room-runtime:2.2.6] C:\Users\masadany\.gradle\caches\transforms-3\443a2524088abfd10360e7382dace757\transformed\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+59            android:directBootAware="true"
+59-->[androidx.room:room-runtime:2.2.6] C:\Users\masadany\.gradle\caches\transforms-3\443a2524088abfd10360e7382dace757\transformed\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+60            android:exported="false" />
+60-->[androidx.room:room-runtime:2.2.6] C:\Users\masadany\.gradle\caches\transforms-3\443a2524088abfd10360e7382dace757\transformed\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+61
+62        <activity
+62-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:27:9-33:20
+63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+63-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:28:13-99
+64            android:theme="@android:style/Theme" >
+64-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:29:13-49
+65            <intent-filter>
+65-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:34:13-36:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
+66-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:34:9-40:20
+70            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+70-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:35:13-95
+71            android:theme="@android:style/Theme" >
+71-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:36:13-49
+72            <intent-filter>
+72-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:34:13-36:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
+73-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:41:9-47:20
+77            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+77-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:42:13-103
+78            android:theme="@android:style/Theme.Dialog" >
+78-->[androidx.test:core:1.3.0] C:\Users\masadany\.gradle\caches\transforms-3\f948ccf039857a661822d0a46fc3fa29\transformed\core-1.3.0\AndroidManifest.xml:43:13-56
+79            <intent-filter>
+79-->[androidx.fragment:fragment-testing:1.2.5] C:\Users\masadany\.gradle\caches\transforms-3\ae273d50b73091a9129800f2e27c66fd\transformed\fragment-testing-1.2.5\AndroidManifest.xml:34:13-36:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:17-69
+80-->D:\Refernces\udemy_course\MVV_Hilt_UnitTesting\app\src\main\AndroidManifest.xml:19:25-66
+81            </intent-filter>
+82        </activity>
+83    </application>
+84
+85</manifest>

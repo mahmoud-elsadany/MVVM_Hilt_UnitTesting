@@ -26,6 +26,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.masadany.mvvm_hilt_unittesting.HiltTestActivity"
+            android:exported="false" />
+        <activity
             android:name="com.masadany.mvvm_hilt_unittesting.view.MainActivity"
             android:exported="true" >
             <intent-filter>
