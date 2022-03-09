@@ -25,6 +25,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -90,8 +94,9 @@ dependencies {
     testImplementation "org.mockito:mockito-core:2.21.0"
 
     // Android Test Implementations
+    implementation 'com.linkedin.dexmaker:dexmaker-mockito:2.28.1'
     androidTestImplementation "junit:junit:4.13.1"
-    androidTestImplementation "com.linkedin.dexmaker:dexmaker-mockito:2.12.1"
+    androidTestImplementation "com.linkedin.dexmaker:dexmaker-mockito:2.28.1"
     androidTestImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.2.1"
     androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
     androidTestImplementation "com.google.truth:truth:1.0.1"

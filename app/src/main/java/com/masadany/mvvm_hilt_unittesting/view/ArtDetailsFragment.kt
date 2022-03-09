@@ -73,7 +73,6 @@ class ArtDetailsFragment @Inject constructor(
                     Toast.makeText(requireContext(), it.message ?: "Error", Toast.LENGTH_LONG).show()
                 }
                 Status.LOADING -> {
-
                 }
             }
         }
